@@ -1,0 +1,3 @@
+densnet_plot.py と mobnet plot.py　は
+
+train.py　で出力される.csv　ファイルを使ってグラフを描くプログラムです。
