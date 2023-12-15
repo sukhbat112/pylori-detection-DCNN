@@ -1,5 +1,10 @@
 # pylori-detection-DCNN
 
-image processing task I did using fine-tuning, DCNNs and common data augmentation techniques.
-dataset consisted of 1600 x-ray images of human stomach which included 800 each of pylori(helicobacter) positive and negative.
-augmented the dataset using common data augmentation techniques.
+uses the following libraries efficiently: tensorflow.keras, matplotlib, sklearn, pandas.
+train.py trains the fully connected part of DCNN, also changing the architecture of FC layer is possible.
+CNN change is also possible.
+init_model.py initializes each CNN models with respective hyper parameters.
+train.py prints the training process and outputs it into 'history.csv' using pandas and saves the parameters in .h5 file.
+also train.py calculates and plots the ROC curve (receiver operating characteristic curve) of the trained models.
+
+mobnet plot.py and densnet plot.py both plots the accuracy and loss curve for both training and validation(evaluation).
