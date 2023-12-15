@@ -2,11 +2,11 @@
 
 uses the following libraries efficiently: tensorflow.keras, matplotlib, sklearn, pandas.
 
+init_model.py initializes each CNN models with respective hyper parameters.
+
 train.py trains the fully connected part of DCNN, also changing the architecture of FC layer is possible.
 
 CNN change is also possible.
-
-init_model.py initializes each CNN models with respective hyper parameters.
 
 train.py prints the training process and outputs it into 'history.csv' using pandas and saves the parameters in .h5 file.
 
